@@ -87,3 +87,23 @@ background: linear-gradient(90deg, rgba(179,163,196,1) 41%, rgba(197,133,231,1) 
 .table-layout img{
     width: 35px;
 }
+@media (max-width: 768px) {
+    .table-layout
+    {
+        grid-template-columns: 0.5fr 3fr 1fr 1fr;
+    }
+    .market
+    {
+        display: none;
+    }
+    @media  (max-width: 500px) {
+        .table-layout div img
+        {
+            width: 25px;
+        }
+        .hero form input{
+            width: 100px;
+        }
+        
+    }
+}
