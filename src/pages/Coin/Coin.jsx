@@ -86,7 +86,7 @@ const Coin = () => {
                 <td>{coindata.market_data.max_supply}</td>
               </tr>
               <tr>
-                <td>24h Change</td><td>{currency.symbol}{coindata.market_data.high_24h[currency.name]}</td>
+                <td>Last Price</td><td>{currency.symbol}{coindata.market_data.high_24h[currency.name]}</td>
               </tr>
               <tr>
                 <td> Current Price</td>
